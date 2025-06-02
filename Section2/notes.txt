@@ -1,0 +1,104 @@
+1. first install virtual environment using the below command
+
+- conda create -p venv python=3.12
+
+2. Next we need to activate the environment
+
+- conda activate venv\
+
+3. create a jupyter notebook 
+- example test.ipynb 
+- once notebook created, we need to install 
+    pip install ipykernel
+- we need to add the kernel details 
+    Click on 'Detecting Kernel" / "Select Kernel" in top right corner of the notebook
+    and choose your prefered venv installed    
+ then we can do execution.
+
+ Why ipykernel package? What is ipykernel package?
+    ipykernel is nothing but it provides a kernel to the specific jupyter notebook,
+    which will be responsible for executing the python code. it is pretty much
+    compulsory and necessary. In Anaconda the default jupyter notebook had ipykernel
+    already integrated to it.
+
+1. Variables -
+
+## variable names should not contain special characters
+## variable names should not contain spaces 
+## variable names should not be keywords
+## variable names should not be same as built-in functions
+## variable names should be meaningful
+## variable names should be descriptive
+## variable names should be in lowercase
+## variable names should be in snake_case
+## variable names should be in camelCase
+## variable names should be in PascalCase   
+## variable names should be in UPPERCASE
+## variable names should be in lowercase_with_underscores
+
+2. Indentation
+
+## Indentation is used to define the scope of the code
+## Indentation is used to define the block of code
+## Indentation is used to define the function
+## Indentation is used to define the class
+## Indentation is used to define the loop
+## Indentation is used to define the condition
+## Indentation is used to define the exception
+## Indentation is used to define the module
+## Indentation is used to define the package
+## Indentation is used to define the script
+## Indentation is used to define the program
+## Indentation is used to define the file
+## Indentation is used to define the directory
+## Indentation is used to define the project
+## Indentation is used to define the repository
+## Indentation is used to define the branch
+## Indentation is used to define the commit
+## Indentation is used to define the tag
+## Indentation is used to define the release
+## Indentation is used to define the version
+## Indentation is used to define the build
+## Indentation is used to define the environment
+## Indentation is used to define the configuration
+## Indentation is used to define the settings
+## Indentation is used to define the options
+## Indentation is used to define the parameters
+## Indentation is used to define the arguments
+## Indentation is used to define the variables
+## Indentation is used to define the constants
+## Indentation is used to define the literals
+## Indentation is used to define the expressions
+## Indentation is used to define the statements
+## Indentation is used to define the functions
+## Indentation is used to define the methods
+## Indentation is used to define the classes
+## Indentation is used to define the objects
+## Indentation is used to define the instances
+## Indentation is used to define the attributes
+## Indentation is used to define the properties
+## Indentation is used to define the fields
+## Indentation is used to define the elements
+## Indentation is used to define the nodes
+## Indentation is used to define the components
+## Indentation is used to define the modules
+## Indentation is used to define the packages
+## Indentation is used to define the libraries 
+
+## naming conventions
+
+# 1. Variable names can only contain letters, numbers, and underscores.
+# 2. Variable names cannot start with a number.
+# 3. Variable names are case-sensitive (age and Age are different variables).
+# 4. Variable names should be descriptive and meaningful.
+# 5. Avoid using reserved keywords (like if, else, while, etc.) as variable names.
+# 6. Use lowercase letters for variable names, and separate words with underscores (snake_case).
+# 7. Use uppercase letters for constants (e.g., MAX_VALUE).
+# 8. Avoid using special characters (like @, #, $, %, etc.) in variable names.
+# 9. Use meaningful names that describe the purpose of the variable.
+# 10. Keep variable names short but descriptive.
+# 11. Avoid using single-letter variable names (except for loop counters).
+# 12. Use plural names for collections (e.g., items, users).
+# 13. Use singular names for individual items (e.g., item, user).
+# 14. Use verbs for functions and methods (e.g., calculate_total, get_user_info).
+# 15. Use nouns for classes (e.g., User, Product).

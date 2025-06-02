@@ -1,0 +1,25 @@
+Section 1 -
+Getting strarted with vs code - 
+1. Install annaconda with virtaul environment setup
+2. in the cmd terminal 
+    conda create -p venv python==3.10  // which version you want. add that version for your project
+3. To Activate Conda 
+conda activate venv/
+4. About requirement.txt 
+    This txt file is usefull to monitor the packages Installed in the project.
+    In simple words, required packages - we can Install it in a single click.
+5.   run to install the package - pip install -r requirement.txt
+
+6. There will two types of files - 
+lineareg.ipynb  -> jupyter notebook
+test.py -> python file
+
+7. Inorder to use jupyter notebook, we need to install 2 in our vs code
+- pip install ipykernel (must)
+-  we can direcrtly install requiredpackage in the jupyter notebook itself, which is not recomended
+    example - !pip install pandas
+
+
+Section 2 - 
+
+1. 
